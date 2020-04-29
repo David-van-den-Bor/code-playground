@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+  padding:1%;
+  /* max-width:400px; */
+  font-family: sans-serif;
+}
+
+button {
+  position:relative;
+  background:green;
+  color:white;
+  padding:20px 40px;
+  font-size:30px;
+  border-radius:10px;
+  cursor:pointer;
+  transition: all .2s ease;
+}
+
+button:hover {
+  background: #000;
+}
+
+.notitie {
+  background-color: lightgrey;
+  min-height:100px;
+  padding: 2%;
+  display:grid;
+  width:100%;
+  text-align: center;
+  align-items: center;
+  margin-top:  20px;
+  border-radius:10px;
+}
