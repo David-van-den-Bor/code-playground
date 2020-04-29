@@ -7,6 +7,11 @@ html {
 	font-family: "Roboto Slab", display;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 body {
 	margin: 0 auto;
 	display: grid;
@@ -17,6 +22,7 @@ body {
 }
 .logo {
 	margin: 0 auto;
+	width: 100px;
 	padding-top: 20px;
 }
 
