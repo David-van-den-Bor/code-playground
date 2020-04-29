@@ -1,0 +1,46 @@
+section {
+   padding: 30%
+}
+
+main {
+   color: white;
+   font-size: 1vw;
+   display: grid;
+	grid-gap: 10px;
+	max-width: 1200px;
+	margin: 10px auto;
+	
+	/* omit the following five lines for the challenge */
+   grid-template-areas:
+      "one two three"
+      "one two four";
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.orange {
+	background: orange;
+	/* omit the following line for the challenge */
+   grid-area: one
+}
+
+.blue {
+	background: blue;   
+	transition: all 2s ease;
+	/* omit the following line for the challenge */
+   grid-area: two;
+
+}
+
+.red {
+	background: red;
+	/* omit the following line for the challenge */
+   grid-area: three;
+}
+
+.green {
+	background: green;
+	/* omit the following line for the challenge */
+   grid-area: four;
+}

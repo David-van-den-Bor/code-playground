@@ -1,0 +1,31 @@
+{# find the children (subpages) of a parent page, in this case the "about" page #}
+	<ul>
+		{% for p in page.find('/about').children if p != page %}
+			<li><a href="{{p.url}}">{{ p.title }}</a></li>
+		{% endfor %}
+	</ul>
+		
+{# show all the pages with a certain category, in this case "cars" #}
+    <h2>All the CAR posts</h2>
+    <ul>
+        {% for post in taxonomy.findTaxonomy({'category':'cars'}) %}
+            <li>{{ post.title }}</li>
+        {% endfor %}
+    <ul>
+            
+ {# sophisticated searches with multiple taxonomies: posts written by John tagged animal and cats #}
+    <ul>
+    {% for post in taxonomy.findTaxonomy({'tag':['animal','cat'],'author':'jdoe'}) %}
+            <li>{{ post.title }}</li>
+    {% endfor %}
+    </ul>
+ 
+ {# List the last 5 recent blog posts #}
+ <ul>
+    {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
+        <li class="recent-posts">
+            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+        </li>
+    {% endfor %}
+    </ul>
+            
