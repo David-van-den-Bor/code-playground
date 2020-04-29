@@ -2,6 +2,8 @@
 
 # Code Snippets <br> Playground homepage
 
+Visit the **playground** at: https://david-van-den-bor.github.io/code-playground/
+
 An overview page of my code snippets archive, pushed to **Plunker**. Each Code snippet sits inside a virtual "playground". You can play around with code snippets, with **live previews in preview windows!**. You can also open each playground in a new larger window (see black button at the right bottom of each snippet)
 
 All playgrounds in this repo are hosted at **Github** as Gists, and automatically updated/embedded/pushed to these playgrounds (which are Plunker embeds). <strong>Plunker</strong> is an online community for testing and showcasing user-created HTML, CSS, and JavaScript code snippets!
