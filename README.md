@@ -4,7 +4,7 @@
 
 ### Visit the **playground** at: https://david-van-den-bor.github.io/code-playground/
 
-An overview page of my code snippets archive, pushed to **Plunker**. Each code snippet sits inside a virtual "playground". You can play around with the code: everything **updates live in the preview window**! You can also open each playground in a new larger window (see black button at the right bottom of each snippet) These playgrounds are individually hosted on Github as repos, and are automatically updated/pushed to the Plunker embeds (that house the playpens). **Plunker** is an online community for testing and showcasing user-created HTML, CSS, and JavaScript code snippets!
+An overview page of my code snippets archive, pushed to **Plunker**. Each code snippet sits inside a virtual "Playground". You can play around with the code: everything **updates live in the preview window**! You can also open each Playground in a new larger window (see black button at the right bottom of each snippet) These Playgrounds are individually hosted on Github as repos, and are automatically updated/pushed to the Plunker embeds (that house the Playgrounds). **Plunker** is an online community for testing and showcasing user-created HTML, CSS, and JavaScript code snippets!
 
 www.davidvandenbor.nl <br>
 https://github.com/David-van-den-Bor <br>
