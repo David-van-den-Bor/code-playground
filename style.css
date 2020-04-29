@@ -27,6 +27,10 @@ h2 {
 	color: rgba(218, 36, 39, 1);
 }
 
+h2 > span {
+	color: black;
+}
+
 .social {
 	display: grid;
 	margin: 0 auto;

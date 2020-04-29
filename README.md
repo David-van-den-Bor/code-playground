@@ -1,6 +1,6 @@
 ![david-van-den-bor.png](david-van-den-bor-website.png)
 
-# Code Snippets <br> Playground homepage
+# Code Snippet <br> Playgrounds
 
 Visit the **playground** at: https://david-van-den-bor.github.io/code-playground/
 
