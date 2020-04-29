@@ -6,7 +6,7 @@
 
 An overview page of my code snippets archive, pushed to **Plunker**. Each code snippet sits inside a virtual "Playground". You can play around with the code: everything **updates live in the preview window**! You can also open each Playground in a new larger window (see black button at the right bottom of each snippet) These Playgrounds are individually hosted on Github as repos, and are automatically updated/pushed to the Plunker embeds (that house the Playgrounds). **Plunker** is an online community for testing and showcasing user-created HTML, CSS, and JavaScript code snippets!
 
-## The reasoning behind this endeavour
+## The reasoning behind it
 It became impossible for me to manage my Codepens on codepen.io. There wasn't an easy way to back them up, and there was no snippet management or version control. I also wanted to have playgrounds similar to Codepen, but without the hassle of constantly having to create Pens by hand and maintaining a second parralel code base.
 
 www.davidvandenbor.nl <br>
