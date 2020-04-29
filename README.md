@@ -14,4 +14,4 @@ https://plnkr.co/users/david_van_den_bor/plunks
 
 <img src="codepen.png" width="40px"> <img src="plunker.png" width="40px"> <img src="github.png" width="40px">
 
-<a href="https://www.buymeacoffee.com/davidvandenbor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/davidvandenbor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="217px"></a>
