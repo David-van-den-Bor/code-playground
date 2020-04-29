@@ -56,23 +56,23 @@ a {
 	line-height: 1.6;
 	font-weight: 300;
 	margin: 0 auto;
-	max-width: 600px;
+	max-width: 720px;
 	text-align: center;
 	margin-bottom: 4rem;
 }
 
 .fullscreenlink {
-margin-bottom: 100px;
-    margin-left: auto;
-    z-index: 1;
-    font-size: 16px;
-    padding: 10px;
-    background: black;
-    border-radius: 10px 0 10px 3px;
-    box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-    color: white;
-    width: fit-content;
+	margin-bottom: 100px;
+	margin-left: auto;
+	z-index: 1;
+	font-size: 16px;
+	padding: 10px;
+	background: black;
+	border-radius: 10px 0 10px 3px;
+	box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+	color: white;
+	width: fit-content;
 }
 
 iframe {
