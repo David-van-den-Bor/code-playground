@@ -12,6 +12,6 @@ www.davidvandenbor.nl <br>
 https://github.com/David-van-den-Bor <br>
 https://plnkr.co/users/david_van_den_bor/plunks
 
-<img src="codepen.png" width="40px"> <img src="plunker.png" width="40px"> <img src="github.png" width="40px">
+<a href="https://codepen.io/davidvdbor/pens/public" target="_blank"><img src="codepen.png" width="40px"></a> <a href="https://plnkr.co/users/david_van_den_bor/plunks" target="_blank"><img src="plunker.png" width="40px"></a> <a href="https://github.com/David-van-den-Bor" target="_blank"><img src="github.png" width="40px"></a>
 
 <a href="https://www.buymeacoffee.com/davidvandenbor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="217px"></a>
