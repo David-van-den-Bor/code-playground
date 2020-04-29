@@ -71,6 +71,12 @@ a {
 	margin-bottom: 4rem;
 }
 
+.intro p {
+	columns: 2;
+    	column-gap: 3rem;
+	column-rule: solid 1px red;
+}
+
 .fullscreenlink {
 	margin-bottom: 100px;
 	margin-left: auto;
