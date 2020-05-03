@@ -8,12 +8,24 @@ An overview page of my code snippets archive, pushed to **Plunker**. Each code s
 
 ## The reasoning behind it
 
-It became impossible for me to manage my Codepens on codepen.io. There wasn't an easy way to back them up, and there was no snippet management or version control. I also wanted to have playgrounds similar to Codepen, but without the hassle of constantly having to create Pens by hand and maintaining a second parralel code base to Github. With [Plunker](https://plnkr.co/users/david_van_den_bor/plunks)I don't need to make physical Playgrounds. The repo's get pushed to Plunker, and Plunker displays them.
+It became impossible for me to manage my Codepens on codepen.io. There wasn't an easy way to back them up, and there was no snippet management or version control. I also wanted to have playgrounds similar to Codepen, but without constantly having to create Pens by hand or maintaining a second parrallel code base to Github. With [Plunker](https://plnkr.co/users/david_van_den_bor/plunks) I don't need to make "physical" playgrounds. The repo's get pushed to Plunker and CodeSandbox, where they are displayed automatically.
 
 www.davidvandenbor.nl <br>
 https://github.com/davidvandenbor <br>
 https://plnkr.co/users/david_van_den_bor/plunks
 
-<a href="https://codepen.io/davidvdbor/pens/public" target="_blank"><img src="codepen.png" width="40px"></a> <a href="https://plnkr.co/users/david_van_den_bor/plunks" target="_blank"><img src="plunker.png" width="40px"></a> <a href="https://github.com/davidvandenbor" target="_blank"><img src="github.png" width="40px"></a>
+#### Tutorials with integrated playgrounds (in Dutch)
+
+https://davidvandenbor.github.io/playgrounds/oefening-css-media-queries
+https://davidvandenbor.github.io/playgrounds/oefening-css-navigatie-desktop-mobile/
+https://davidvandenbor.github.io/playgrounds/oefening-html-includes/
+https://davidvandenbor.github.io/playgrounds/oefening-css-grid/
+
+#### code snippets
+
+https://github.com/davidvandenbor/html-includes-with-standard-javascript
+https://github.com/davidvandenbor/css-media-queries
+
+<a href="https://codepen.io/davidvdbor/pens/public" target="_blank"><img src="README-img/codepen.png" width="40px"></a> <a href="https://plnkr.co/users/david_van_den_bor/plunks" target="_blank"><img src="README-img/plunker.png" width="40px"></a> <a href="https://github.com/davidvandenbor" target="_blank"><img src="README-img/github.png" width="40px"></a>
 
 <a href="https://www.buymeacoffee.com/davidvandenbor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="150px"></a>
