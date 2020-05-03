@@ -24,7 +24,7 @@ https://davidvandenbor.github.io/playgrounds/oefening-css-grid/
 #### code snippets
 
 https://github.com/davidvandenbor/html-includes-with-standard-javascript
-https://github.com/davidvandenbor/css-media-queries
+https://github.com/davidvandenbor/css-media-queries <br>
 https://github.com/davidvandenbor/navigation-desktop-mobile
 
 <a href="https://codepen.io/davidvdbor/pens/public" target="_blank"><img src="README-img/codepen.png" width="40px"></a> <a href="https://plnkr.co/users/david_van_den_bor/plunks" target="_blank"><img src="README-img/plunker.png" width="40px"></a> <a href="https://github.com/davidvandenbor" target="_blank"><img src="README-img/github.png" width="40px"></a>
