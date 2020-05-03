@@ -12,17 +12,18 @@
 
    <img src="../david-van-den-bor-website.png" alt="David van den Bor" class="logo" />
    <section class="intro">
-      <h1>CSS media queries <span>oefening</span>. <br> verschalen als een baas.</h1>
+      <h1>CSS navigatie <span>maken</span>. <br> Voor desktop EN mobile.</h1>
       <p>
-         Hier een speelbak om te oefenen met media queries: In het css bestand breng je "breekpunten" (media queries) aan die bepalen op welke schermbreedtes je een andere layout maakt. Gebruik de speelbak om live met de code te spelen, of om het code voorbeeld als ZIP te downloaden en te openen in je eigen editor.
+         Hier een voorbeeld van hoe je een simpele navigatie kan maken die bruikbaar is (en er goed uitziet) op alle schermafmetingen (van mobiel to desktop en groter) Het uitgangspunt is om zo minimaal mogelijke code te gebruiken en de opmaak over te laten aan CSS:
       </p>
+      <img src="navigatie.png" alt="">
    </section>
 
    <section class="intro">
       <h2>Wat we in dit voorbeeld doen</h2>
       <section class="highlights">
          <article>
-            <h3>REM in plaats van pixels
+            <h3>Media queries gebruiken om de opmaak te veranderen qua beeldschermbreedte
             </h3>
 
             We gebruiken <strong>rem</strong>
@@ -32,8 +33,8 @@
             Hangt ervan af. Als je van <em>groot naar klein</em> werkt gebruik je <strong>max-width</strong> (veranderingen TOT maximaal een bepaalde schermbreedte) en als je van <em>klein naar groot</em> werkt (mobile first, zoals wij doen) dan specificeer je <strong>min-width</strong> (veranderingen VANAF minimaal een bepaalde schermbreedte)
          </article>
          <article>
-            <h3>mobile first</h3>
-            <p> Eerst plaats je alle CSS styling die "standaard" gaat gelden voor alle elementen (van 0px schermbreedte tot oneindig groot beeldscherm) daarna maak ik het scherm zo klein mogelijk en begin dan, terwijl ik het LANGZAAM groter maak, te ontdekken waar voor mij het design "breekt". En voor DIE "breekpunten" maak ik de CSS media queries met "alternatieve" styling! Die media queries vind je onderaan de CSS file! </p>
+            <h3>mobile first, css hover en css transition.</h3>
+            <p> We werken van klein naar groot. Dus eerst styleren we de <strong>nav</strong> en de links daarin standaard bovenop elkaar. Daarna maken we de dropdown door handig gebruik te maken van <strong>css hover</strong>. Gecombineerd met <strong>css animaties</strong> (in dit geval css transition) kun je hem dan ook mooi naar beneden en boven laten bewegen. </p>
          </article>
 
       </section><img src="media-queries-min-max.png" alt="">
@@ -59,9 +60,8 @@
 
          <a href="https://github.com/davidvandenbor">Github</a> |
          <a href="https://plnkr.co/users/david_van_den_bor/plunks">Plunker</a> |
-         <a href="https://codepen.io/davidvdbor/pens/public">CodePlayground
-            <a href="https://codepen.io/davidvdbor/pens/public"> CodePen</a> <br>
-            <img src="../github.png" style="width:50px" alt="github" />
+         <a href="https://codepen.io/davidvdbor/pens/public"> CodePen</a> <br>
+         <img src="../github.png" style="width:50px" alt="github" />
 
       </section>
    </footer>
