@@ -18,7 +18,7 @@ body {
 	display: grid;
 	align-items: center;
 	margin: 0 5%;
-	background: radial-gradient(rgb(236, 244, 251), rgb(243, 243, 243));
+	background: radial-gradient(rgb(227, 246, 255), rgb(243, 243, 243));
 	background-attachment: fixed;
 }
 
