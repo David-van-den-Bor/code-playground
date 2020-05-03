@@ -16,16 +16,16 @@ https://plnkr.co/users/david_van_den_bor/plunks
 
 #### Tutorials with integrated playgrounds (in Dutch)
 
-https://davidvandenbor.github.io/playgrounds/oefening-css-media-queries
-https://davidvandenbor.github.io/playgrounds/oefening-css-navigatie-desktop-mobile/
-https://davidvandenbor.github.io/playgrounds/oefening-html-includes/
+https://davidvandenbor.github.io/playgrounds/oefening-css-media-queries <br>
+https://davidvandenbor.github.io/playgrounds/oefening-css-navigatie-desktop-mobile/ <br>
+https://davidvandenbor.github.io/playgrounds/oefening-html-includes/ <br>
 https://davidvandenbor.github.io/playgrounds/oefening-css-grid/
 
 #### code snippets
 
-https://github.com/davidvandenbor/html-includes-with-standard-javascript
+https://github.com/davidvandenbor/html-includes-with-standard-javascript <br>
 https://github.com/davidvandenbor/css-media-queries <br>
-https://github.com/davidvandenbor/navigation-desktop-mobile
+https://github.com/davidvandenbor/navigation-desktop-mobile <br>
 
 <a href="https://codepen.io/davidvdbor/pens/public" target="_blank"><img src="README-img/codepen.png" width="40px"></a> <a href="https://plnkr.co/users/david_van_den_bor/plunks" target="_blank"><img src="README-img/plunker.png" width="40px"></a> <a href="https://github.com/davidvandenbor" target="_blank"><img src="README-img/github.png" width="40px"></a>
 
