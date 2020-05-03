@@ -21,6 +21,13 @@ body {
 	background-attachment: fixed;
 	margin-bottom: 100px;
 }
+
+.items {
+	/* display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem; */
+}
+
 .logo {
 	margin: 0 auto;
 	width: 100px;
@@ -80,8 +87,27 @@ a {
 	column-rule: solid 1px red;
 }
 
+.codesandbox {
+	height: 600px;
+	border: solid 1px black;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: -11px 17px 39px rgba(0, 0, 0, 0.6);
+	width: 100%;
+	margin-bottom: 5rem;
+}
+
+iframe {
+	height: 600px;
+	border: 0;
+	overflow: hidden;
+	box-shadow: -11px 17px 39px rgba(0, 0, 0, 0.6);
+	width: 100%;
+}
+
 .fullscreenlink {
-	margin-bottom: 100px;
+	display: block;
+	margin-bottom: 5rem;
 	margin-left: auto;
 	z-index: 1;
 	font-size: 16px;
@@ -92,13 +118,6 @@ a {
 	text-decoration: none;
 	color: white;
 	width: fit-content;
-}
-
-iframe {
-	height: 600px;
-	border: 0;
-	box-shadow: -11px 17px 39px rgba(0, 0, 0, 0.6);
-	width: 100%;
 }
 
 @media (max-width: 510px) {
