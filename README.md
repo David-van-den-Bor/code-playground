@@ -1,4 +1,4 @@
-![david-van-den-bor.png](david-van-den-bor-website.png)
+![david-van-den-bor.png](README-img/david-van-den-bor-website.png)
 
 # Code Snippet Playgrounds
 
