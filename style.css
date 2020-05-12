@@ -6,6 +6,7 @@ html {
 	font-size: 15px;
 	font-family: "Roboto Slab", display;
 	text-align: center;
+	font-weight: 300;
 }
 
 img {
@@ -20,6 +21,10 @@ body {
 	margin: 0 5%;
 	background: radial-gradient(rgb(227, 246, 255), rgb(243, 243, 243));
 	background-attachment: fixed;
+}
+
+strong {
+	font-weight: 600;
 }
 
 .items {
@@ -48,7 +53,7 @@ h3 {
 	line-height: 1.4;
 }
 
-h1 > span {
+span {
 	color: black;
 }
 
