@@ -1,173 +1,92 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&family=Pirata+One&family=Roboto+Slab:wght@300;600&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,700;0,900;1,700&display=swap");
+:root {
+	--huisstijlkleur: rgb(0, 119, 167);
+}
 
 html {
-	font-size: 15px;
-	font-family: "Roboto Slab", display;
-	text-align: center;
-	font-weight: 300;
-}
-
-img {
-	width: 100%;
-	height: auto;
-}
-
-body {
-	margin: 0 auto;
-	display: grid;
-	align-items: center;
-	margin: 0 5%;
-	background: radial-gradient(rgb(255, 255, 255), rgb(249, 247, 247));
-	background-attachment: fixed;
-}
-
-strong {
-	font-weight: 600;
-}
-
-.items {
-	/* display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 2rem; */
-}
-
-.logo {
-	margin: 0 auto;
-	width: 80px;
-	padding-top: 20px;
+	font-size: 14px;
+	font-family: "Roboto Slab", sans-serif;
+	line-height: 1.5;
 }
 
 h1 {
-	text-align: center;
-	break-after: avoid-column;
-	font-weight: 600;
-	font-size: 2.5rem;
-	line-height: 1.3;
-	color: rgba(218, 36, 39, 1);
-}
-
-h2,
-h3 {
-	line-height: 1.4;
-}
-
-span {
-	color: black;
-}
-
-h2 {
 	font-size: 2rem;
-	color: rgba(218, 36, 39, 1);
-}
-
-h3 {
-	font-size: 1.2rem;
-	color: rgba(218, 36, 39, 1);
-	margin-bottom: 0.5rem;
-}
-
-.split p {
-	break-before: column;
-}
-
-/* .split p {
-	break-inside: avoid;
-} */
-
-.highlights {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 4rem;
-	text-align: left;
-}
-
-.social {
-	display: grid;
-	margin: 0 auto;
-	padding-top: 10px;
-
-	grid-template-columns: 1fr 1fr 1fr;
-	max-width: 200px;
-}
-.social img {
-	width: 60%;
-	margin: 0 auto;
-	height: auto;
-}
-.social img:nth-child(2) {
-	margin-top: 5%;
-	width: 80%;
-}
-
-a {
-	color: rgb(173, 28, 30);
-	font-weight: 400;
-	text-decoration: none;
+	line-height: 1.3;
+	margin-bottom: 1rem;
 }
 
 .intro {
-	text-align: center;
-	font-size: 1.1rem;
-	line-height: 1.6;
-	font-weight: 300;
+	max-width: 700px;
 	margin: 0 auto;
-	max-width: 720px;
-	margin-bottom: 4rem;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	padding: 0rem 3rem 4rem 3rem;
 }
 
-.split {
-	text-align: left;
-	columns: 2;
-	column-gap: 3rem;
-	column-rule: solid 1px red;
+.intro img {
+	border-radius: 50%;
+	width: 8rem;
+	margin-right: 3rem;
 }
 
-.codesandbox {
-	height: 600px;
-	border: solid 2px black;
-	border-radius: 4px;
-	overflow: hidden;
-	box-shadow: -11px 17px 39px rgba(0, 0, 0, 0.6);
-	width: 100%;
-	margin-bottom: 5rem;
+a {
+	color: var(--huisstijlkleur);
 }
 
-iframe {
-	height: 600px;
-	border: 0;
-	overflow: hidden;
-	box-shadow: -11px 17px 39px rgba(0, 0, 0, 0.6);
-	width: 100%;
+.search-function {
+	margin-top: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	grid-column-start: 2;
+}
+.search-function input {
+	margin-left: 1rem;
+	margin-top: 1rem;
+	padding: 0.5rem;
 }
 
-.fullscreenlink {
-	display: block;
-	margin-bottom: 5rem;
-	margin-left: auto;
-	z-index: 1;
-	font-size: 16px;
-	padding: 10px;
-	background: black;
-	border-radius: 10px 0 10px 3px;
-	box-shadow: -5px 5px 3px rgba(0, 0, 0, 0.2);
-	text-decoration: none;
-	color: white;
-	width: fit-content;
+.repo--js {
+	display: grid;
+	gap: 0;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	/* grid-template-columns: 1fr 1fr 1fr; */
 }
 
-@media (max-width: 510px) {
-	iframe {
-		height: 900px;
-	}
+.project {
+	background: white;
+	padding: 3rem 3rem;
+	margin: 0;
+}
+.project:nth-of-type(3),
+.project:nth-of-type(15),
+.project:nth-of-type(16),
+.project:nth-of-type(17),
+.project:nth-of-type(18),
+.project:nth-of-type(19),
+.project:nth-of-type(20),
+.project:nth-of-type(21),
+.project:nth-of-type(22),
+.project:nth-of-type(23),
+.project:nth-of-type(24),
+.project:nth-of-type(25) {
+	display: none !important;
 }
 
-@media (max-width: 700px) {
-	.split {
-		columns: 1;
-	}
-	.highlights {
-		grid-template-columns: 1fr;
-	}
+li {
+	list-style-type: none;
+}
+
+li:first-of-type {
+	text-transform: capitalize;
+	font-size: 1.9rem;
+	color: var(--huisstijlkleur);
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	line-height: 1.3;
+}
+
+li:nth-of-type(3),
+li:nth-of-type(4) {
+	font-weight: bold;
 }
