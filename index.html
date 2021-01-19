@@ -2,45 +2,29 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Document</title>
-   <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playground repository list</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-   <img src="README-img/david-van-den-bor-website.png" alt="David van den Bor" class="logo" />
-   <section class="intro">
-      <h1>Welcome to <span>Playground</span>. An online collection of my code snippets</h1>
-      <p class="split">
-         Each Code snippet sits inside a virtual "playground". You can play
-         around with the code, and
-         <strong>previews will update live in the preview window!</strong> You
-         can also open each playground in a new larger window (see black button
-         at the right bottom of each snippet) All these items are
-         hosted on <strong>Github</strong> as Repos, and are automatically
-         updated/pushed to the Plunker embeds you see on this page.
-         <strong>Plunker</strong> is an online community for testing and
-         showcasing user-created HTML, CSS, and JavaScript code snippets! <br />
-         <a href="https://github.com/davidvandenbor/playgrounds">Playgrounds on Github</a>
-      </p>
+  <section class="intro">
+    <img src="https://avatars3.githubusercontent.com/u/5694412?s=460&u=1d4e81b7acb678c6819ce54cc3cc2a0f76c9d13c&v=4" alt="">
+    <article>
+      <h1>My Github repositories with coding examples & playgrounds</h1>
+      Here are my repositories on Github with code examples. Browse through them and see what you can use (or learn from) or what you can utilize in your next project! I made these examples for the coding classes that I teach, but figured they might come in handy as a resource overview for others.
+    </article>
+    <section class="search-function"> Search filter <input type="text" id="myInput" onkeyup="zoekfilter()" placeholder="Search using keywords.." title="Type in a name"></section>
+  </section>
 
-      <a href="https:www.davidvandenbor.nl">www.davidvandenbor.nl</a> <br />
-      <a href="https://github.com/davidvandenbor">Github</a> |
-      <a href="https://codepen.io/davidvdbor/pens/public"> CodePen</a>
-
-      <section class="social">
-         <img src="README-img/github.png" alt="" />
-         <img src="README-img/codepen.png" alt="" />
-      </section>
-   </section>
-   <section class="items">
-      <iframe src="https://codesandbox.io/embed/github/davidvandenbor/css-media-queries?codemirror=1&fontsize=14&editorsize=30&runonclick=0" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" class="codesandbox"></iframe>
-      <iframe src="https://codesandbox.io/embed/github/davidvandenbor/Event-Listeners-in-Javascript?codemirror=1&fontsize=14&editorsize=30&runonclick=0" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" class="codesandbox"></iframe>
-      <iframe src="https://codesandbox.io/embed/github/davidvandenbor/navigation-desktop-mobile?codemirror=1&fontsize=14&editorsize=30&runonclick=0" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" class="codesandbox"></iframe>
-      <iframe src="https://codesandbox.io/embed/github/davidvandenbor/css-animation-linked-to-scrollbar?codemirror=1&fontsize=14&editorsize=30&runonclick=0" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" class="codesandbox"></iframe>
-   </section>
+  <main>
+    <div class="repo--js" id="repositories">
+    </div>
+  </main>
+  <script src="./script.js"></script>
 </body>
 
 </html>
+   
