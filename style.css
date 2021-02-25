@@ -58,18 +58,18 @@ a {
 	padding: 3rem 3rem;
 	margin: 0;
 }
-.project:nth-of-type(3),
-.project:nth-of-type(16),
-.project:nth-of-type(17),
-.project:nth-of-type(18),
-.project:nth-of-type(19),
-.project:nth-of-type(20),
-.project:nth-of-type(21),
-.project:nth-of-type(22),
-.project:nth-of-type(23),
-.project:nth-of-type(24),
-.project:nth-of-type(25) {
-	display: none !important;
+.project:nth-of-type(4),
+.project:nth-of-type(17), 
+.project:nth-of-type(18), 
+.project:nth-of-type(19), 
+.project:nth-of-type(20), 
+.project:nth-of-type(21), 
+.project:nth-of-type(22), 
+.project:nth-of-type(23), 
+.project:nth-of-type(24), 
+.project:nth-of-type(25), 
+.project:nth-of-type(26) {
+    display: none !important;
 }
 
 li {
