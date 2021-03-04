@@ -11,7 +11,7 @@ fetch(
 			const repositoryList = document.querySelector(".repo--js");
 			const myTemplate = `
 	 <ul class="project"> 
-	 <iframe src="https://codesandbox.io/embed/github/davidvandenbor/${name}?codemirror=1&fontsize=14&editorsize=30&runonclick=0" style="width:100%; height:300px; border:solid 3px black; border-radius: 4px; overflow:hidden;" allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" class="codesandbox"></iframe>
+	 <iframe src="https://codesandbox.io/embed/github/davidvandenbor/${name}?codemirror=1&fontsize=14&editorsize=30&runonclick=1" style="width:100%; height:300px; border:solid 3px black; border-radius: 4px; overflow:hidden;" allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" class="codesandbox"></iframe>
 
 	 <li><a href="${html_url}" title="This is link to ${name} repository from my GitHub list" target="_new">${name}</a></li>
 	 <li>${description} <br /></li>
