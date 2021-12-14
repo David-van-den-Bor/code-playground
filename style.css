@@ -49,8 +49,20 @@ a {
 .repo--js {
 	display: grid;
 	gap: 0;
-	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-	/* grid-template-columns: 1fr 1fr 1fr; */
+	/* grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); */
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width:800px) {
+.repo--js {
+	grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width:600px) {
+.repo--js {
+	grid-template-columns: 1fr;
+}
 }
 
 iframe {
