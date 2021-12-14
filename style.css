@@ -49,10 +49,13 @@ a {
 .repo--js {
 	display: grid;
 	gap: 0;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
 	/* grid-template-columns: 1fr 1fr 1fr; */
 }
 
+iframe body {
+zoom:50%
+}
 .project {
 	background: white;
 	padding: 3rem 3rem;
