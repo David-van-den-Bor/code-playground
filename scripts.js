@@ -10,7 +10,7 @@ fetch(
 			const { name, description, html_url } = repo;
 			const repositoryList = document.querySelector(".repo--js");
 			const myTemplate = `
-	 <ul class="project"> 
+	 <ul class="project" id="${name}"> 
 	 <iframe src="https://htmlpreview.github.io/?https://github.com/davidvandenbor/${name}/blob/master/index.html"></iframe>
 	 <li><a href="${html_url}" title="This is link to ${name} repository from my GitHub list" target="_new">${name}</a></li>
 	 <li>${description} <br /></li>
