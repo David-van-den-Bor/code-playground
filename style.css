@@ -8,7 +8,7 @@ html {
 	font-size: 14px;
 	font-family: "Roboto Slab", sans-serif;
 	line-height: 1.5;
-	background: #dddddd;
+	background: radial-gradient(rgb(255, 255, 255), rgb(229 222 222));
 }
 
 h1 {
