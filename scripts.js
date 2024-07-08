@@ -7,7 +7,7 @@ fetch(
 	.then((resp) => resp.json())
 	.then((resp) => {
 		for (let repo of resp) {
-			const { name, description, html_url } = repo;
+			const { name, description, html_url, topics } = repo;
 			const repositoryList = document.querySelector(".repo--js");
 			const myTemplate = `
 	 <ul class="project" id="${name}"> 
