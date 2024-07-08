@@ -51,8 +51,8 @@ function zoekfilter() {
 }
 
 function zoekfilterCourse() {
-	var input, filter, repositories, td, i, txtValue, li;
-	input = document.getElementById("myInputCourse");
+	var inputCourse, filter, repositories, td, i, txtValue, li;
+	inputCourse = document.getElementById("myInputCourse");
 	filter = input.value.toUpperCase();
 	repositories = document.getElementById("repositories");
 	li = repositories.querySelectorAll(".course");
