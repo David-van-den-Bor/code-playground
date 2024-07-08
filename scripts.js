@@ -51,23 +51,22 @@ function zoekfilter() {
 }
 
 function zoekfilterCourse() {
-	var inputCourse, filter, repositories, td, i, txtValue, li;
-	inputCourse = document.getElementById("myInputCourse");
-	filter = inputCourse.value.toUpperCase();
-	repositories = document.getElementById("repositories");
-	li = repositories.querySelectorAll(".course");
-	for (i = 0; i < li.length; i++) {
-		console.log(li[i].parentNode);
-		var rowContent = li[i].textContent;
-		rowContent = rowContent.replace(/[\s]+/g, " ");
-		//console.log(rowContent);
+    var inputCourse, filter, repositories, td, i, txtValue, courses;
+    inputCourse = document.getElementById("myInputCourse");
+    filter = inputCourse.value.toUpperCase();
+    repositories = document.getElementById("repositories");
+    courses = repositories.querySelectorAll(".course");
 
-		if (rowContent) {
-			if (rowContent.toUpperCase().includes(filter)) {
-				li[i].style.cssText = "display: block;";
-			} else {
-				li[i].style.cssText = "display: none;";
-			}
-		}
-	}
+    for (i = 0; i < courses.length; i++) {
+        var rowContent = courses[i].textContent;
+        rowContent = rowContent.replace(/[\s]+/g, " ");
+
+        if (rowContent) {
+            if (rowContent.toUpperCase().includes(filter)) {
+                courses[i].closest('.project').style.display = "block";
+            } else {
+                courses[i].closest('.project').style.display = "none";
+            }
+        }
+    }
 }
