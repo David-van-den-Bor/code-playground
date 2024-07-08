@@ -53,7 +53,7 @@ function zoekfilter() {
 function zoekfilterCourse() {
 	var inputCourse, filter, repositories, td, i, txtValue, li;
 	inputCourse = document.getElementById("myInputCourse");
-	filter = input.value.toUpperCase();
+	filter = inputCourse.value.toUpperCase();
 	repositories = document.getElementById("repositories");
 	li = repositories.querySelectorAll(".course");
 	for (i = 0; i < li.length; i++) {
