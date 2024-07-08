@@ -49,3 +49,25 @@ function zoekfilter() {
 		}
 	}
 }
+
+function zoekfilterCourse() {
+	var input, filter, repositories, td, i, txtValue, li;
+	input = document.getElementById("myInputCourse");
+	filter = input.value.toUpperCase();
+	repositories = document.getElementById("repositories");
+	li = repositories.querySelectorAll(".course");
+	for (i = 0; i < li.length; i++) {
+		console.log(li[i].parentNode);
+		var rowContent = li[i].textContent;
+		rowContent = rowContent.replace(/[\s]+/g, " ");
+		//console.log(rowContent);
+
+		if (rowContent) {
+			if (rowContent.toUpperCase().includes(filter)) {
+				li[i].style.cssText = "display: block;";
+			} else {
+				li[i].style.cssText = "display: none;";
+			}
+		}
+	}
+}
