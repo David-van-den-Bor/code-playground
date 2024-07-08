@@ -14,7 +14,7 @@ fetch(
 	 <iframe src="https://htmlpreview.github.io/?https://github.com/davidvandenbor/${name}/blob/master/index.html"></iframe>
 	 <li><a href="${html_url}" title="This is link to ${name} repository from my GitHub list" target="_new">${name}</a></li>
 	 <li>${description} <br /></li>
-	 <li>CMD Coursenaam: <span style="text-transform:uppercase;font-weight:normal">${topics}</span> <br /></li>
+	<span class="course"> <li>CMD Coursenaam: <span style="text-transform:uppercase;font-weight:normal">${topics}</span> <br /></li></span>
 	 <li>Link to Sandbox: <a href="https://githubbox.com/davidvandenbor/${name}" alt="This is a source code of ${name} project." target="_new">Source code</a></li>
     <li>Link to <a href="${html_url}" title="This is link to ${name} repository from my GitHub list" target="_new">Github Repo</a></li>
     </ul>
